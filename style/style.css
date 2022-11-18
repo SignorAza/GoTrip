@@ -1,0 +1,449 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "RR";
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+
+.container{
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo{
+  transition: 300ms;
+}
+
+.logo:hover{
+  scale: 1.1;
+
+}
+
+.header-nav{
+  background: #3E8989;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 165px;
+  width: 100%;
+}
+
+.header-nav-list{
+  display: flex;
+  gap: 30px;
+}
+
+.header-nav-link{
+font-size: 16px;
+line-height: 19px;
+font-family: 'RM';
+color: #FFFFFF;
+border-top: 2px solid transparent;
+border-bottom: 2px solid transparent;
+transition: border 500ms;
+padding: 5px 0px;
+}
+
+.header-nav-link:hover{
+  border-top: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.header-nav-form{
+  display: flex;
+  max-width: 216px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  border: none;
+
+}
+
+.header-nav-input{
+  border-radius: 20px 0px 0px 20px;
+  padding: 8px 20px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #898989;
+  border: none;
+  outline: none; 
+}
+
+.header-nav-button{
+  border-radius: 0px 20px 20px 0px;
+  background: #295E5E;
+  padding: 9px 14px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  transition: color 300ms;
+}
+
+.header-nav-button:hover{
+  color: black;
+  scale: 1.1;
+}
+
+.header-top{
+  background: url(../images/header-background.jpg) no-repeat top/cover;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 600ms;
+
+}
+
+.header-top:hover{
+  scale: 1.1;
+  
+}
+
+.header-top-title{
+font-size: 80px;
+line-height: 95px;
+font-family: "RSB";
+color: #FFFFFF;
+margin-bottom: 20px;
+transition: 800ms;
+}
+
+.header-top-title:hover{
+  scale: 1.3;
+  rotate: 15deg;
+  color: rgb(0, 0, 0);
+}
+
+.header-top-text{
+font-size: 40px;
+line-height: 47px;
+font-family: "RM";
+font-weight: 500;
+color: #FFFFFF;
+margin-bottom: 50px;
+}
+
+.header-top-button{
+  padding: 14px 78px;
+  background: #B4436C;
+  border-radius: 30px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-family: ISB;
+  transition: color 300ms, background 300ms; translate: 3000ms;
+  display: block;
+}
+
+.header-top-button:hover{
+  background: #FFFFFF;
+  color: #B4436C;
+  translate: 10px 10px;
+}
+
+.main-top-title{
+font-size: 40px;
+line-height: 48px;
+color: #3E8989;
+font-family: "ISB";
+text-align: center;
+margin-top: 80px;
+}
+
+.container-box{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.main-top-left{
+  max-width: 545px;
+  transition: 500ms;
+}
+
+.main-top-left:hover{
+  scale: 1.1;
+}
+
+
+
+.main-top-right{
+  max-width: 545px;
+}
+
+.main-top-right-text-one{
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+margin-bottom: 20px;
+}
+
+.main-top-right-text-two{
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+
+.main-center-title{
+font-size: 40px;
+line-height: 48px;
+font-family: "ISB";
+color: #3E8989;
+text-align: center;
+padding-top: 97px;
+}
+
+.item-clothes{
+  display: flex;
+  margin-top: 53px;
+}
+
+.item{
+  width: 25%;
+  background: #EFEFEF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  transition: background 300ms, translate 500ms;
+}
+
+.item:hover{
+  background: #3E8989;
+  translate: 10px 30px;
+}
+
+.item-clothes-name{
+  display: flex;
+  margin-top: 30px;
+}
+
+.text{
+  width: 25%;
+  text-align: center;
+  margin-right: 20px;
+  font-family: "ISB";
+}
+
+.main-bottom-title{
+font-size: 40px;
+line-height: 48px;
+font-family: "ISB";
+color: #3E8989;
+padding-top: 100px;
+}
+
+.main-bottom-box{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.main-bottom-box-title{
+  width: 555px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.main-bottom-link{
+  margin-top: 20px;
+}
+
+.call,
+.gmail{
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  transition: scale 300ms color 300ms;
+}
+
+.footer{
+ padding-top: 104px;
+}
+
+.footer-box{
+  background: #3E8989;
+}
+
+.footer-nav-list{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 40px;
+
+}
+
+.footer-nav-link a{
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+font-family: "RM";
+transition: color 300ms;
+}
+
+.footer-nav-link a:hover{
+  color: gold;
+}
+
+.footer-text{
+  padding: 59px 0px 15px 0px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 400;
+}
+
+.item-text{
+    display: none;
+}
+
+
+
+
+@media(max-width:900px) {
+.header-top{
+  width: 100%;
+}
+
+.header-nav{
+   gap: 20px;
+ }
+
+.header-nav-form{
+  display: none;
+}
+
+
+.main-top-right{
+  width: 50%;
+}
+
+.item img{
+  width: 100%;
+}
+
+.main-top-right{
+  margin-left: 20px;
+}
+
+.main-top-left img{
+  width: 100%;
+}
+
+
+
+}
+
+@media(min-width:900px){
+  .main-top-right{
+    margin-left: 20px;
+  }
+
+ 
+
+  .main-bottom-right{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+  }
+
+}
+
+@media(min-width: 576px){
+  .main-bottom-box-title{
+    width: 75%;
+  }
+}
+
+
+@media(max-width: 576px){
+  
+
+  .header-nav{
+    flex-direction: column;
+   justify-content: center;
+   background: #000000;
+
+  }
+
+  .header-top-title{
+
+    text-align: center;
+    font-size: 55px;
+  }
+
+  .header-top-text{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding: 0 15px;
+  }
+
+.item-clothes{
+  flex-wrap: wrap;
+}
+
+.item{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.item-clothes-name{
+  display: none;
+}
+
+.item-text{
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+  .main-top-right{
+    width: 50%;
+
+  }
+  
+.main-top-left{
+  width: 50%;
+}
+
+.main-top-right-text-one{
+  font-size: 18px;
+}
+.main-top-right-text-two{
+  font-size: 18px;
+}
+
+.main-bottom-left{
+  width: 50%;
+}
+.main-bottom-right{
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.main-bottom-box-title{
+  width: 75%;
+}
+}
+
